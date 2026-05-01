@@ -1,0 +1,16 @@
+org_name: nullstone
+name: gcp-wildcard-certificate
+friendly_name: Create wildcard certificate
+description: Creates a Certificate in GCP Certificate Manager for any subdomain on a domain
+category: block
+subcategory: ""
+provider_types:
+    - gcp
+platform: certificate-manager
+subplatform: ""
+type: ""
+appCategories: []
+is_public: true
+tool_name: opentofu
+include: []
+source_url: https://github.com/nullstone-modules/gcp-wildcard-certificate
